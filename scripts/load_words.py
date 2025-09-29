@@ -11,7 +11,9 @@ csv_url = f"https://docs.google.com/spreadsheets/d/{spreadsheet_id}/export?forma
 # pandasでCSVデータを読み込み
 df = pd.read_csv(csv_url, header = None)
 
-word_list = [list(col) for col in df.to_numpy()]
+word_list = df.to_numpy()
+word_list = [list(["" if pd.isnull(x) else x for x in col]) for col in word_list]
+print(word_list)
 
 
 data = json.load(open('../settings.json'))
