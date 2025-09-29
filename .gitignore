@@ -1,0 +1,8 @@
+# 例: main.116.toe / asset.42.tox
+*.[0-9]*.toe
+*.[0-9]*.tox
+
+# 自動クラッシュ保存
+*_CrashAutosave*.toe
+
+output/

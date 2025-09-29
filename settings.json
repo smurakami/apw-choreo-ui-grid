@@ -1,0 +1,72 @@
+{
+  "word_list": [
+  ],
+  "sequences": [
+    {
+      "sequence_id": 1,
+      "sequence_name": "sequence1",
+      "audio_file_nama": "spring1.wav",
+      
+      "scenes": [
+        {
+          "start_millisec": 15366,
+          "end_millisec": 28200
+        },
+        {
+          "start_millisec": 28200,
+          "end_millisec": 54266
+        },
+        {
+          "start_millisec": 54266,
+          "end_millisec": 71800
+        },
+        {
+          "start_millisec": 71800,
+          "end_millisec": 89433
+        },
+        {
+          "start_millisec": 89433,
+          "end_millisec": 107100
+        }
+      ]
+    },
+    {
+      "sequence_id": 2,
+      "sequence_name": "sequence2",
+      "audio_file_nama": "spring2.wav",
+      "scenes": [
+        {
+          "start_millisec": 100000,
+          "end_millisec": 127000
+        },
+        {
+          "start_millisec": 127000,
+          "end_millisec": 156000
+        },
+        {
+          "start_millisec": 156000,
+          "end_millisec": 197000
+        }
+      ]
+    },
+    {
+      "sequence_id": 3,
+      "sequence_name": "sequence3",
+      "audio_file_nama": "spring3.wav",
+      "scenes": [
+        {
+          "start_millisec": 62000,
+          "end_millisec": 92000
+        },
+        {
+          "start_millisec": 92000,
+          "end_millisec": 122000
+        },
+        {
+          "start_millisec": 122000,
+          "end_millisec": 152000
+        }
+      ]
+    }
+  ]
+}
