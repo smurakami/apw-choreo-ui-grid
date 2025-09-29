@@ -57,3 +57,8 @@ class OSCSender:
         value = list(map(float, probs))
         address = f"/bci/label_prob"
         self.send(address, [timestamp, *value])
+
+    def send_test(self):
+        address = f"/bci/test"
+        timestamp = int(time.time() * 1000)
+        self.send(address, [timestamp])
