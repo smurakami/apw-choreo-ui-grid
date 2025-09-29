@@ -1,12 +1,46 @@
 {
   "word_list": [
+    [
+      "Restless",
+      "Fear",
+      "Tense",
+      "Eager",
+      "Excited"
+    ],
+    [
+      "Angst",
+      "Heavy",
+      "Alert",
+      "Strong",
+      "Interested"
+    ],
+    [
+      "Sad",
+      "Uncertain",
+      NaN,
+      "Enlightened",
+      "Happy"
+    ],
+    [
+      "Distressed",
+      "Weak",
+      "Reliefed",
+      "Lightweight",
+      "Hopeful"
+    ],
+    [
+      "Depressed",
+      "Unwilling",
+      "Calm",
+      "Relieved",
+      "Content"
+    ]
   ],
   "sequences": [
     {
       "sequence_id": 1,
       "sequence_name": "sequence1",
       "audio_file_nama": "spring1.wav",
-      
       "scenes": [
         {
           "start_millisec": 15366,
