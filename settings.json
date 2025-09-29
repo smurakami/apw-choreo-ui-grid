@@ -70,16 +70,16 @@
       "audio_file_nama": "spring2.wav",
       "scenes": [
         {
-          "start_millisec": 100000,
-          "end_millisec": 127000
+          "start_millisec": 100966,
+          "end_millisec": 129133
         },
         {
-          "start_millisec": 127000,
-          "end_millisec": 156000
+          "start_millisec": 129133,
+          "end_millisec": 156933
         },
         {
-          "start_millisec": 156000,
-          "end_millisec": 197000
+          "start_millisec": 156933,
+          "end_millisec": 192766
         }
       ]
     },
@@ -89,16 +89,20 @@
       "audio_file_nama": "spring3.wav",
       "scenes": [
         {
-          "start_millisec": 62000,
-          "end_millisec": 92000
+          "start_millisec": 61900,
+          "end_millisec": 92033
         },
         {
-          "start_millisec": 92000,
-          "end_millisec": 122000
+          "start_millisec": 92033,
+          "end_millisec": 122466
         },
         {
-          "start_millisec": 122000,
-          "end_millisec": 152000
+          "start_millisec": 122466,
+          "end_millisec": 152800
+        },
+        {
+          "start_millisec": 152800,
+          "end_millisec": 174233
         }
       ]
     }
