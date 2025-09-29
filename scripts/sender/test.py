@@ -7,7 +7,7 @@ async def main():
     脳波送信のサンプルコードです。
     OSCSenderクラスに、データのフォーマット処理を記述しています。
     """
-    sender = OSCSender(to_ip="192.168.1.80")
+    sender = OSCSender()
 
     async def bci_waveform_loop_01s():
         # counter = 0
@@ -43,11 +43,20 @@ async def main():
             sender.send_label(dummy_label)
             await asyncio.sleep(0.5)
 
+    async def test_loop_01s():
+        # counter = 0
+
+        # 0.1秒ループ
+        while True:
+            sender.send_test()
+            await asyncio.sleep(0.1)
+
 
     # 両方のループを並列に実行
     await asyncio.gather(
         bci_waveform_loop_01s(),
-        bci_label_loop_05s()
+        bci_label_loop_05s(),
+        test_loop_01s()
     )
 
 
